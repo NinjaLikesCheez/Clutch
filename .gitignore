@@ -1,10 +1,6 @@
-## Xcode ##
-###########
-
-codesign.sh
-.idea/*
-.idea
-build/*
+# Xcode
+.DS_Store
+build/
 *.pbxuser
 !default.pbxuser
 *.mode1v3
@@ -15,18 +11,10 @@ build/*
 !default.perspectivev3
 *.xcworkspace
 !default.xcworkspace
-xcuserdata/*
-*.xcuserdatad
+xcuserdata
 profile
 *.moved-aside
 DerivedData
-
-# OS files #
-############
-.DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Thumbs.db
+.idea/
+# Pods - for those of you who use CocoaPods
+Pods
