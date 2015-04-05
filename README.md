@@ -9,12 +9,12 @@ Current version: 2.0
 
 Usage
 ------------
-Clutch [OPTIONS]
--d --dump <value>    Dump specified bundleID 
--i --print-installed Print installed application 
---clean           Clean /var/tmp/clutch directory 
---version         Display version and exit 
--? --help            Display this help and exit 
+Clutch [OPTIONS]<br />
+-d --dump <value>    Dump specified bundleID<br />
+-i --print-installed Print installed application<br /> 
+--clean           Clean /var/tmp/clutch directory<br /> 
+--version         Display version and exit<br /> 
+-? --help            Display this help and exit<br /> 
 
 
 Compiling
